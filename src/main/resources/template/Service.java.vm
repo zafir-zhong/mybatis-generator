@@ -9,7 +9,8 @@ import ${package}.${moduleName}.entity.${className}Entity;
  * ${comments} service接口
  *
  * @author ${author}
- * @date ${datetime}
+ * @date created at ${datetime}; update at ${datetime}
+ * @version ${version}
  */
 public interface ${className}Service extends IService<${className}Entity> {
 

@@ -131,7 +131,7 @@ public class GenUtils {
         //个人信息
         map.put("version", config.getString("version"));
         map.put("author", config.getString("author" ));
-        map.put("email", config.getString("email" ));
+//        map.put("email", config.getString("email" ));
         map.put("datetime", DateUtils.format(new Date(), DateUtils.DATE_TIME_PATTERN));
 
 

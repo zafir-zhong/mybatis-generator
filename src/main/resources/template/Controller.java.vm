@@ -24,7 +24,8 @@ import ${resultClassFullName};
  * ${comments} 对应的前端控制器
  *
  * @author ${author}
- * @date ${datetime}
+ * @date created at ${datetime}; update at ${datetime}
+ * @version ${version}
  */
 #if(${hasSwagger})
 @Api(tags = "${comments} 管理")

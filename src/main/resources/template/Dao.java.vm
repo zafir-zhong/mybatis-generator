@@ -8,7 +8,8 @@ import org.apache.ibatis.annotations.Mapper;
  * ${comments}
  * 
  * @author ${author}
- * @date ${datetime}
+ * @date created at ${datetime}; update at ${datetime}
+ * @version ${version}
  */
 @Mapper
 public interface ${className}Mapper extends BaseMapper<${className}Entity> {

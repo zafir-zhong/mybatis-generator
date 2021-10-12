@@ -23,7 +23,7 @@ import io.swagger.annotations.ApiModelProperty;
  * ${comments} 数据库表实体对象
  *
  * @author ${author}
- * @date ${datetime}
+ * @date created at ${datetime}; update at ${datetime}
  * @version ${version}
  */
 #if(${hasLombok})

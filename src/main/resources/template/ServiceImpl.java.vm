@@ -15,7 +15,8 @@ import ${package}.${moduleName}.service.${className}Service;
  * ${comments} {@link ${package}.${moduleName}.service.${className}Service}的实际实现
  *
  * @author ${author}
- * @date ${datetime}
+ * @date created at ${datetime}; update at ${datetime}
+ * @version ${version}
  */
 @Service("${classname}Service")
 public class ${className}ServiceImpl extends ServiceImpl<${className}Mapper, ${className}Entity> implements ${className}Service {
