@@ -20,10 +20,9 @@ import io.swagger.annotations.ApiModelProperty;
 
 
 /**
- * ${comments}
+ * ${comments} 数据库表实体对象
  *
  * @author ${author}
- * @email ${email}
  * @date ${datetime}
  * @version ${version}
  */

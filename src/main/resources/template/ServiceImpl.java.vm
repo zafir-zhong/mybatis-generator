@@ -11,18 +11,25 @@ import ${package}.${moduleName}.mapper.${className}Mapper;
 import ${package}.${moduleName}.entity.${className}Entity;
 import ${package}.${moduleName}.service.${className}Service;
 
-
+/**
+ * ${comments} {@link ${package}.${moduleName}.service.${className}Service}的实际实现
+ *
+ * @author ${author}
+ * @date ${datetime}
+ */
 @Service("${classname}Service")
 public class ${className}ServiceImpl extends ServiceImpl<${className}Mapper, ${className}Entity> implements ${className}Service {
 
+    /**
+    * 分页查询
+    * @return 一个默认分页的无条件查询结果
+    */
     @Override
     public IPage<${className}Entity> queryPage() {
-        IPage<${className}Entity> page = this.page(
+        return this.page(
                 new Page<>(),
                 new QueryWrapper<${className}Entity>()
-        );
-
-        return page;
+        );;
     }
 
 }

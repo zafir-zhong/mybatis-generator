@@ -4,17 +4,19 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 import ${package}.${moduleName}.entity.${className}Entity;
 
-import java.util.Map;
 
 /**
- * ${comments}
+ * ${comments} service接口
  *
  * @author ${author}
- * @email ${email}
  * @date ${datetime}
  */
 public interface ${className}Service extends IService<${className}Entity> {
 
+    /**
+    * 分页查询
+    * @return 一个默认分页的无条件查询结果
+    */
     IPage<${className}Entity> queryPage();
 }
 
