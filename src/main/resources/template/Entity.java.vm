@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 #end
 import java.io.Serializable;
 import java.util.Date;
+import com.fasterxml.jackson.annotation.JsonFormat;
 #if(${hasLombok})
 import lombok.Data;
 #end
@@ -48,6 +49,9 @@ public class ${className}Entity implements Serializable {
 #end
 #if(${hasSwagger})
     @ApiModelProperty(value = "$column.comments")
+#end
+#if(${column.attrType.indexOf("Date")} != -1)
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
 #end
     private $column.attrType $column.attrname;
 #end

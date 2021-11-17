@@ -31,6 +31,9 @@ public class TableEntity {
 		this.tableName = tableName;
 	}
 	public String getComments() {
+		if(!comments.isEmpty()){
+			comments = comments.replace("\n","<br>");
+		}
 		return comments;
 	}
 	public void setComments(String comments) {

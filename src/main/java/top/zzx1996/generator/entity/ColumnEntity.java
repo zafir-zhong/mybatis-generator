@@ -37,6 +37,9 @@ public class ColumnEntity {
 		this.dataType = dataType;
 	}
 	public String getComments() {
+		if(!comments.isEmpty()){
+			comments = comments.replace("\n","<br>");
+		}
 		return comments;
 	}
 	public void setComments(String comments) {

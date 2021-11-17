@@ -30,7 +30,7 @@ public class ${className}ServiceImpl extends ServiceImpl<${className}Mapper, ${c
         return this.page(
                 new Page<>(),
                 new QueryWrapper<${className}Entity>()
-        );;
+        );
     }
 
 }
