@@ -21,11 +21,11 @@ import ${package}.${moduleName}.service.${className}Service;
 import ${resultClassFullName};
 
 /**
- * ${comments}
+ * ${comments} 对应的前端控制器
  *
  * @author ${author}
- * @email ${email}
- * @date ${datetime}
+ * @date created at ${datetime}; update at ${datetime}
+ * @version ${version}
  */
 #if(${hasSwagger})
 @Api(tags = "${comments} 管理")
